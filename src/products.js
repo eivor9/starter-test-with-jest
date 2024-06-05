@@ -1,8 +1,10 @@
+// return full name of passed contact parameter
 function getFullName(contact) {
   const names = contact.names;
   return `${names.first} ${names.surname}`;
 }
 
+// return array of products tied to passed contact parameter
 function getProductsPurchased(contact) {
   const purchased = contact.purchased;
 
